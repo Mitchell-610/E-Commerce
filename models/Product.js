@@ -4,6 +4,7 @@ const { Model, DataTypes } = require('sequelize');
 // import our database connection from config.js
 const sequelize = require('../config/connection');
 
+
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Product extends Model {}
 
@@ -41,6 +42,15 @@ Product.init(
     underscored: true,
     modelName: 'product',
   }
+
 );
 
 module.exports = Product;
+
+// {  
+//   "id": "3",
+//   "product_name": "North Face",
+//     "category_id": "4",
+//     "price": "79.99",
+//     "stock": "8"
+// }

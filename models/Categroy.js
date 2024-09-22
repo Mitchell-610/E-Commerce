@@ -29,3 +29,8 @@ Category.init(
 );
 
 module.exports = Category;
+
+//{
+//"id": "3",
+//"category_name": "Coats"
+//}

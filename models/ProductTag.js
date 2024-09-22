@@ -43,3 +43,9 @@ ProductTag.init(
 );
 
 module.exports = ProductTag;
+
+// {
+// "id": 13,
+// "product_id": 3,
+// "tag_id": 14
+//}

@@ -28,3 +28,8 @@ Tag.init(
 );
 
 module.exports = Tag;
+
+// {
+//   "id": 14,
+//   "tag_name": "Winter Coats"
+// }
